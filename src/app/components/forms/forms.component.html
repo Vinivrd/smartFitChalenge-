@@ -22,8 +22,10 @@
     </div>
 
     <div class="checkbox-wrapper">
-        <input type="checkbox" name="showClosed" formControlName = "showClosed" >
-        <label for="showClosed">Exibir unidades fechadas</label>
+        <div class="checkbox">
+            <input type="checkbox" name="showClosed" formControlName="showClosed"/>
+            <label for="showClosed">Exibir unidades fechadas</label>
+        </div>
         <span>Resultados encontrados:{{results.length}}</span>
     </div>
     <div class="btn-wrapper">
